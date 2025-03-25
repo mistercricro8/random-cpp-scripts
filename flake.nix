@@ -32,7 +32,6 @@
       ];
       buildInputs = [ pkgs.bashInteractive ];
       initHook = ''
-        test
       '';
     };
   };
