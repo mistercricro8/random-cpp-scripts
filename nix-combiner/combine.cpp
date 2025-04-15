@@ -7,7 +7,7 @@
 
 using json = nlohmann::json;
 
-const std::string PROGRAM_PATH = "/home/cricro/.config/home-manager/programs/flake-init/";
+const std::string PROGRAM_PATH = "/home/cricro/nixos-config/programs/flake-init/";
 const std::string GROUPS_PATH = PROGRAM_PATH + "groups/";
 
 json read_json(const std::string &filepath) {
